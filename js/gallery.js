@@ -85,7 +85,16 @@ function fetchJSON()
 
 
 //Part 2 Slideshow 3
-
+function iterateJSON(mJson)
+{
+	for(x=0; x < mJson.images.length; x++)
+{
+	mImages[x]=new GalleryImage();
+	mImages[x].location =mJson.images[x].imglocation;
+	mImages[x].description = mJson.images[x].date;
+	mImages[x].img = mjson.images[x].imgPath;
+}
+}
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
 //@param A GalleryImage object. Use this method for an event handler for loading a gallery Image object (optional).
 function makeGalleryImageOnloadCallback(galleryImage) {
