@@ -30,6 +30,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	opacity: .8;
+	left: 45%
 	top: 0px;
 }
 
