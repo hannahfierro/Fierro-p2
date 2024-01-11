@@ -53,6 +53,22 @@ function swapPhoto() {
 	mCurrentIndex +=1;
 }
 
+
+
+function toggleDeatails()
+{
+	if($(".moreIndicator").hasClass("rot90"))
+	{
+		$( ".moreIndicator" ).removeClass("rot90");
+		$(".moreInicator" ).addclass("rot270");
+		}
+		else {
+			$(".moreIndicator" ).removeClass("rot 270");
+			$(".moreIndicator").addClass("rot90");
+		}
+		$(".details" ).slideToggle("slow", "linear");
+	}
+
 // Counter for the mImages array
 var mCurrentIndex = 0;
 
