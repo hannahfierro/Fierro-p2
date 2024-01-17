@@ -124,7 +124,10 @@ $(document).ready( function() {
 	
 	// This initially hides the photos' metadata information
 	// $('.details').eq(0).hide();
-	
+	$( "nextPhoto" ).position({
+		my: "right bottom",
+		at: "right bottom",
+		of: "#nav"
 });
 
 window.addEventListener('load', function() {
