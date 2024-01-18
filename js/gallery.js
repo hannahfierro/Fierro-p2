@@ -43,16 +43,17 @@ function swapPhoto() {
 		mCurrentIndex = mImages.length-1;
 	}
 	
-	document.get ElementById('photo').src=mImages[mCurrentIndex].img;
+	document.getElementById('photo').src= mImages[mCurrentIndex].img;
 	var loc=document.getElementsByClassName('location');
 	loc[0].innerHTML="Location: "+ mImages[mCurrentIndex].location;
-	var des=document.getElementsByClassName('description');
-	des[0].innerHTML = "Date: " + mImages[mCurrentIndex].date;
+	var des = document.getElementsByClassName('description');
+	des[0].innerHTML = "Description: " + mImages[mCurrentIndex].description;
+	var dt = document.getElementsByClassName('date');
+	dt[0].innerHTML = "Date: " + mImages[mCurrentIndex].date;
 
 	mLastFrameTime =0;
 	mCurrentIndex +=1;
 }
-
 
 
 function toggleDeatails()
@@ -68,7 +69,6 @@ function toggleDeatails()
 		}
 		$(".details" ).slideToggle("slow", "linear");
 	}
-
 // Counter for the mImages array
 var mCurrentIndex = 0;
 
@@ -83,7 +83,10 @@ var mJson;
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = 'images.json';
+var mUrl;
+
+
+
 
 function fetchJSON()
 {
@@ -129,6 +132,29 @@ $(document).ready( function() {
 		at: "right bottom",
 		of: "#nav"
 });
+
+
+const urlParams = new URLSearchParams(window.location.search);
+
+for (const [key, value] of urlParams) {
+	console.log(`${key}:${value}`);
+	mUrl = value;
+}
+if(mUrl == undefined)
+{
+  	mUrl = 'images.json';
+}
+
+
+fetchJSON();
+
+// This initially hides the photos' metadata information
+// $('.details').eq(0).hide();
+
+});
+
+
+
 
 window.addEventListener('load', function() {
 	

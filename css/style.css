@@ -1,7 +1,7 @@
 body {
 	overflow: auto;
 	font-family: 'Century Gothic', sans-serif;
-	background-image: url(../img/geometry.jpg);
+	background-image: url(/geometry.jpg);
 }
 
 #photoBooth {
@@ -30,7 +30,7 @@ body {
 	position: absolute;
 	z-index: 3;
 	opacity: .8;
-	left: 45%
+	left: 45%;
 	top:  0px;
 }
 
@@ -87,7 +87,7 @@ transform:rotate(90deg);
 /*firefox*/
 -moz-transition: all 1s ease;
 /*WebKit*/
--webkit- transition: all 1s ease;
+-webkit-transition: all 1s ease;
 /*opera */
 -o-transition: all 1s ease;
 /*standard*/
