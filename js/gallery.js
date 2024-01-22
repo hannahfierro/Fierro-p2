@@ -44,15 +44,15 @@ function swapPhoto() {
 	}
 	
 	document.getElementById('photo').src= mImages[mCurrentIndex].img;
-	var loc=document.getElementsByClassName('location');
+	var loc = document.getElementsByClassName('location');
 	loc[0].innerHTML="Location: "+ mImages[mCurrentIndex].location;
 	var des = document.getElementsByClassName('description');
 	des[0].innerHTML = "Description: " + mImages[mCurrentIndex].description;
 	var dt = document.getElementsByClassName('date');
 	dt[0].innerHTML = "Date: " + mImages[mCurrentIndex].date;
 
-	mLastFrameTime =0;
-	mCurrentIndex +=1;
+	mLastFrameTime = 0;
+	mCurrentIndex += 1;
 }
 
 
@@ -106,12 +106,13 @@ function fetchJSON()
 //Part 2 Slideshow 3
 function iterateJSON(mJson)
 {
-	for(x=0; x < mJson.images.length; x++)
+	for( x = 0; x < mJson.images.length; x++)
 {
-	mImages[x]=new GalleryImage();
-	mImages[x].location =mJson.images[x].imglocation;
-	mImages[x].description = mJson.images[x].date;
-	mImages[x].img = mjson.images[x].imgPath;
+    mImages[x] = new GalleryImage();
+    mImages[x].location = mJson.images[x].imgLocation;
+    mImages[x].description = mJson.images[x].description;
+    mImages[x].date = mJson.images[x].date;
+    mImages[x].img = mJson.images[x].imgPath;
 }
 }
 //You can optionally use the following function as your event callback for loading the source of Images from your json data (for HTMLImageObject).
