@@ -1,25 +1,25 @@
 {
     "images": [
         {
-            "imgPath": "/img/places/austria.jpg",
+            "imgPath": ".../img/places/camp.jpeg",
             "imgLocation": "Australia",
             "description": "Loch Ard Gorge",
             "date": "01/01/2016"
         },
         {
-            "imgPath": "/img/places/austria.jpg",
+            "imgPath": "/img/places/carride.jpeg",
             "imgLocation": "Austria",
             "description": "Austrian chapel",
             "date": "01/02/2016"
         },
         {
-            "imgPath": "/img/places/france.jpg",
+            "imgPath": "/img/places/charlie.jpeg",
             "imgLocation": "Paris",
             "description": "Eiffel Tower",
             "date": "01/03/2016"
         },
         {
-            "imgPath": "/img/places/greece.jpg",
+            "imgPath": "/img/places/cousin.jpeg",
             "imgLocation": "Greece",
             "description": "Greek coastline",
             "date": "01/04/2016"
