@@ -13,7 +13,7 @@
     <p class="banner">IS219 Slide Show</p>
     <div id="slideShow">
       <div class="photoHolder">
-        <img class="thumbnail" id="photo" src="http://placehold.it/518x389?text=Welcome+to+my+Gallery" alt="Gallery Image"/>
+        <img class="thumbnail" id="photo" src="https://media.tenor.com/DKMjbx8V0VAAAAAe/hugs-happy.png" alt="Gallery Image"/>
         <img class="moreIndicator rot90" src="/img/more.png" alt="More Content"/>
       </div>
       <div id="nav">
@@ -30,14 +30,16 @@
   </div>
   <script>
     $( "#prevPhoto" ).click(function() {
-      mCurrentIndex-=2;
+      mCurrentIndex -=2;
       swapPhoto();
     });
   </script>
-  <script>
-    $( "#nextPhoto" ).click(function() {
-      swapPhoto();
-    });
-    </script>
+
+  <!-- Clicker handler; when clicked will go to next photo-->
+<script>
+  $( "#nextPhoto" ).click(function(){
+    swapPhoto();
+  });
+</script>
 </body>
 </html>
