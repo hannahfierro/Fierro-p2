@@ -26,57 +26,57 @@
         },
         {
             "imgPath": "/img/places/cousin.jpeg",
-            "imgLocation": "Hungary",
-            "description": "Budapest skyline",
+            "imgLocation": "My cousin and I",
+            "description": "This is a picture of my cousin and I when we were little!",
             "date": "01/05/2016"
         },
         {
             "imgPath": "/img/places/halloween.jpeg",
-            "imgLocation": "India",
-            "description": "Taj Mahal",
-            "date": "01/06/2016"
+            "imgLocation": "Halloween",
+            "description": "My cousin and I on Halloween were skeletons ",
+            "date": "10/31/2023"
         },
         {
             "imgPath": "/img/places/carride.jpeg",
-            "imgLocation": "Italy",
-            "description": "Venice",
-            "date": "01/07/2016"
+            "imgLocation": "Car Ride",
+            "description": "I drove with my dad and cousin for the first time.",
+            "date": "01/18/2023"
         },
         {
             "imgPath": "/img/places/CityLight.jpeg",
-            "imgLocation": "Japan",
-            "description": "Hirosaki Castle",
-            "date": "01/08/2016"
+            "imgLocation": "NYC",
+            "description": "I took this picture when my dad was driving my sister home.",
+            "date": "02/15/2023"
         },
         {
             "imgPath": "/img/places/family.jpg",
-            "imgLocation": "South Korea",
-            "description": "Seoul",
-            "date": "01/09/2016"
+            "imgLocation": "My cousins and I.",
+            "description": "We went to the city to see the tree.",
+            "date": "12/10/2023"
         },
         {
             "imgPath": "/img/places/my dog.jpg",
-            "imgLocation": "Norway",
-            "description": "Countryside mountains",
-            "date": "01/10/2016"
+            "imgLocation": "My dog Charlie",
+            "description": "He's so cute!",
+            "date": "11/13/2023"
         },
         {
             "imgPath": "/img/places/friend.jpg",
-            "imgLocation": "Switzerland",
-            "description": "Lake castle",
-            "date": "01/11/2016"
+            "imgLocation": "My friend Abby and I.",
+            "description": "This was taken when we were about to go to a birthday dinner.",
+            "date": "08/11/2023"
         },
         {
             "imgPath": "/img/places/besties.jpg",
-            "imgLocation": "Thailand",
-            "description": "Beachline",
-            "date": "01/12/2016"
+            "imgLocation": "My camp besties",
+            "description": "This was the last day of camp!",
+            "date": "08/04/2023"
         },
         {
             "imgPath": "/img/places/myself.jpg",
-            "imgLocation": "Turkey",
-            "description": "Istanbul",
-            "date": "01/13/2016"
+            "imgLocation": "Myself in NYC",
+            "description": "I went to the city to take fun pictures in central park.",
+            "date": "05/03/2023"
         }
   ]
 }
