@@ -147,7 +147,7 @@ function fetchJSON(){
   }
 
 
-//function that will animate the arrows directions with css
+//function that will animate the arrow directions with css
 function toggleDetails(){
 	if($(".moreIndicator").hasClass("rot90")){
 		$(".moreIndicator").removeClass("rot90");
